@@ -26,7 +26,7 @@ The program performs the following actions:
 1. **Run the Program**:
 
    - Execute the Python script by running `python main.py` in your terminal or command prompt.
-   - [Alternatively, download the executable version of the program and double-click to open it](https://drive.google.com/file/d/16nSsnr7xPNorEcxgBDULsji75jmmrPUs/view?usp=sharing)
+   - [Alternatively,if you're on Windows, download the executable version of the program and double-click to open it](https://drive.google.com/file/d/16nSsnr7xPNorEcxgBDULsji75jmmrPUs/view?usp=sharing)
 
 2. **Select Folders**:
 
@@ -58,4 +58,4 @@ To run the program from the terminal:
 python main.py
 ```
 
-[Or for easier use, download the executable version and double-click to open it!](https://drive.google.com/file/d/16nSsnr7xPNorEcxgBDULsji75jmmrPUs/view?usp=sharing)
+[Or for easier use,if you're on Windows, download the executable version and double-click to open it!](https://drive.google.com/file/d/16nSsnr7xPNorEcxgBDULsji75jmmrPUs/view?usp=sharing)
