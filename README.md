@@ -1,44 +1,61 @@
 # Folder Synchronization Program
 
-This program synchronizes files between a source folder and a replica folder.
+This program synchronizes files between a source folder and a replica folder, ensuring both folders are identical.
 
-## Functionality:
+## Functionality
 
-The program iterates through the files in the source folder and checks if they exist in the replica folder. If a file is missing in the replica folder or if it's different, it copies the file. It also removes files from the replica folder that don't exist in the source folder.
+The program performs the following actions:
 
-## Dependencies:
+- Iterates through the files in the source folder and checks if they exist in the replica folder.
+- Copies missing or modified files from the source to the replica folder.
+- Removes files from the replica folder that don't exist in the source folder.
+
+## Dependencies
 
 - Python 3.x
-- No third-party libraries are required. The program utilizes built-in Python libraries:
-  - os
-  - shutil
-  - logging
-  - time
-  - threading
-  - tkinter
+- No third-party libraries are required. The program utilizes the following built-in Python libraries:
+  - `os`
+  - `shutil`
+  - `logging`
+  - `time`
+  - `threading`
+  - `tkinter`
 
-## Usage:
+## Usage
 
-1. Run the program by executing the Python script.
-2. Use the "Browse" button to select the source folder.
-3. Use the "Browse" button to select the replica folder.
-4. Set the synchronization interval in seconds (default is 30 seconds).
-5. Click the "Start Sync" button to begin synchronization.
-6. The program will sync the folders initially and then periodically based on the specified interval.
-7. Click the "Stop Sync" button to stop synchronization.
+1. **Run the Program**:
 
-## Logging:
+   - Execute the Python script by running `python main.py` in your terminal or command prompt.
+   - [Alternatively, download the executable version of the program and double-click to open it](https://drive.google.com/file/d/16nSsnr7xPNorEcxgBDULsji75jmmrPUs/view?usp=sharing)
 
-The program logs the synchronization actions to a log file.
+2. **Select Folders**:
 
-### Log Format:
+   - Use the "Browse" button to select the source folder.
+   - Use the "Browse" button to select the replica folder.
+
+3. **Set Synchronization Interval**:
+
+   - Enter the synchronization interval in seconds.
+
+4. **Start and Stop Synchronization**:
+   - Click the "Start Sync" button to begin synchronization.
+   - The program will sync the folders initially and then periodically based on the specified interval.
+   - Click the "Stop Sync" button to stop synchronization.
+
+## Logging
+
+The program logs synchronization actions to a log file, providing a record of all synchronization events.
+
+### Log Format
 
 - Each log entry includes a timestamp and the action taken (e.g., file copied or removed).
 
-## Example Usage:
+## Example Usage
 
-Open a terminal in the folder where the program is located and run:
+To run the program from the terminal:
 
 ```
 python main.py
 ```
+
+[Or for easier use, download the executable version and double-click to open it!](https://drive.google.com/file/d/16nSsnr7xPNorEcxgBDULsji75jmmrPUs/view?usp=sharing)
